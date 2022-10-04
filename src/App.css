@@ -1,12 +1,30 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.todo{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+input{
+  width: 100%;
+}
+select {
+  width: 100%;
+}
+select option {
+  text-align: center;
+}
+.button1{
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 100%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
